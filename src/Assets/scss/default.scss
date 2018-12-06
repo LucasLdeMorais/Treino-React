@@ -5,4 +5,28 @@ body{
   a{
     color: blue;
   }
+
+
+}
+
+header{
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+footer{
+  font-size: 25px;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+
+#teste{
+  position: absolute;
+  text-align: center;
+  top: 46%;
+  left: 46%;
 }

@@ -8,12 +8,35 @@ import './Assets/css/default.min.css';
 
 class App extends Component {
   render() {
-    return (
-      <div className="App">
-        <Header />
-        content
-        <Footer />
+    /*JavaScript here*/
+    var x = 2;
+    var y = 2;
+
+    var z = addTwoNumbers(x,y);
+
+    function addTwoNumbers(x, y) {
+       return x + y;
+    }
+
+    function checkZ(z,x,y){
+      if (z == x+y) {
+        return "acertô, miserávi";
+      } else {
+        return "Errrrrou";
+      }
+    }
+
+
+  return (
+    /* HTML here */
+    <div className="App">
+      <Header />
+      <div id="teste">
+        {x}+{y}={z} <br></br>
+        {checkZ(z,x,y)}
       </div>
+      <Footer />
+    </div>
     );
   }
 }
