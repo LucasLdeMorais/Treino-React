@@ -1,14 +1,24 @@
 import React, { Component } from 'react';
 
-import './Assets/css/default.min.css';
+//stylesheets
 
 class Header extends Component {
   render() {
     return (
       <header>
-      <div className="App">
-        app
+
+      <div className="logo">
+        Header
       </div>
+
+      <nav>
+
+        <ul>
+
+        </ul>
+
+      </nav>
+
       </header>
     );
   }
