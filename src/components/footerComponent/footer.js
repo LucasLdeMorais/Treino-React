@@ -7,9 +7,8 @@ class Footer extends Component {
     return (
 
       <footer>
-
-      footer
-
+      <hr></hr>
+        footer
       </footer>
     );
   }
